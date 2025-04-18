@@ -1,0 +1,28 @@
+# Ignore build artifacts
+/build/
+.move/
+.target/
+
+# Ignore dependency lock files (useful if you're not relying on the package manager)
+*.lock
+
+# Ignore generated move language files
+*.move
+
+# Ignore IDE/editor files (e.g., VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore personal or sensitive data
+config/.env
+config/.secrets
+
+# Ignore other runtime-related files
+*.log
+*.out
